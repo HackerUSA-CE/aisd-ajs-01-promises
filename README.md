@@ -21,7 +21,7 @@ Your project should be structured as follows:
 
 ```plaintext
 promises-settimeout-lab/
-├── script.js
+├── index.js
 └── README.md
 ```
 
@@ -32,7 +32,7 @@ promises-settimeout-lab/
 ### 1. **Create the Project Folder and Files**
    - [ ] Create a project folder named `promises-settimeout-lab` to store your project files.
 
-   - [ ] Inside the `promises-settimeout-lab` folder, create a file named `script.js`. This will be your main JavaScript file where all your code will be written.
+   - [ ] Inside the `promises-settimeout-lab` folder, create a file named `index.js`. This will be your main JavaScript file where all your code will be written.
 
 ##
 
@@ -40,7 +40,7 @@ promises-settimeout-lab/
 
 In this step, you will create a basic example using **promises** combined with `setTimeout()` to understand how JavaScript handles **asynchronous code**. This approach allows tasks to be delayed while the rest of the program continues executing, ensuring **non-blocking** behavior and smooth user experiences.
 
-- [ ] Add the following code to your `script.js` file:
+- [ ] Add the following code to your `index.js` file:
 
 ```javascript
 // Example: Basic Promise with a Simple Task
@@ -90,7 +90,7 @@ In this step, you will create a promise that randomly either **resolves** or **r
 
 - [ ] **Comment out all the code** from the previous example in your index.js file to avoid conflicts.
 
-- [ ] Add the following code to your `script.js` file:
+- [ ] Add the following code to your `index.js` file:
 
 ```javascript
 // Example: Promise with Success or Failure
@@ -114,7 +114,7 @@ successOrFailPromise()
 - [ ] Run your code using Node.js in the terminal:
 
 ```bash
-node script.js
+node index.js
 ```
 
 ### Expected Output:
@@ -156,7 +156,7 @@ In this step, you will create a chain of promises where each task depends on the
 
 - [ ] **Comment out all the code** from the previous example in your index.js file again to avoid conflicts.
 
-- [ ] Add the following code to your `script.js` file:
+- [ ] Add the following code to your `index.js` file:
 
 ```javascript
 // Example: Chaining Promises
@@ -187,7 +187,7 @@ chainedPromise()
 - [ ] Run your code using Node.js in the terminal:
 
 ```bash
-node script.js
+node index.js
 ```
 
 ### Expected Output:
@@ -220,7 +220,7 @@ In this step, you will simulate multiple asynchronous tasks running in parallel 
 
 - [ ] **Comment out all the code** from the previous example in your index.js file again to avoid conflicts.
 
-- [ ] Add the following code to your `script.js` file:
+- [ ] Add the following code to your `index.js` file:
 
 ```javascript
 // Example: Promise with Multiple Operations
@@ -258,7 +258,7 @@ Promise.all([taskA(), taskB(), taskC()])
 - [ ] Run your code using Node.js in the terminal:
 
 ```bash
-node script.js
+node index.js
 ```
 
 ### Expected Output:
