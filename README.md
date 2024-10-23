@@ -302,6 +302,37 @@ This example shows how to manage multiple asynchronous tasks running in parallel
 
 ##
 
+### 6. **Commit and Push Your Code to GitHub**
+
+Now that you've completed your code, it's important to **save your work** and **push it to GitHub**. This will help you keep track of your progress and ensure you have a backup.
+
+Follow these basic steps:
+
+- [ ] **Create a GitHub Repository:**
+  1. Go to [GitHub](https://github.com) and create a new repository.
+  2. Name your repository (e.g., `promises-settimeout-lab`) and click **"Create."**
+
+- [ ] **Link Your Local Project to the GitHub Repository:**
+  1. Open your terminal and navigate to your project folder.
+  2. Run the following command, replacing `YOUR_REPOSITORY_URL` with the URL of your GitHub repository:
+     ```bash
+     git remote add origin YOUR_REPOSITORY_URL
+     ```
+
+- [ ] **Commit and Push Your Code:**
+  1. Add and commit your files:
+     ```bash
+     git add .
+     git commit -m "Initial commit"
+     ```
+  2. Push your code to GitHub:
+     ```bash
+     git push -u origin main
+     ```
+
+##
+
+
 ## Conclusion 📄
 
 In this assignment, you gained hands-on experience working with **promises** and `setTimeout()` in JavaScript to manage **asynchronous operations**. By exploring how to handle tasks both sequentially and in parallel using `Promise.all()`, you developed a deeper understanding of **asynchronous programming** and how to manage both success and failure outcomes effectively.
